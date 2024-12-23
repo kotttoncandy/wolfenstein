@@ -1,4 +1,4 @@
-# wolfenstein renderer
+# wolfenstein renderer made with Kaboomjs - 2D game library
 
 The Wolfenstein 3D renderer is a 2.5D raycasting engine used in the classic first-person shooter Wolfenstein 3D (released in 1992). Although the game uses a 2D map with walls and floors, the engine simulates a 3D perspective using raycasting to create the illusion of three-dimensionality. Let's break down how the renderer works:
 Key Concepts Behind the Renderer
