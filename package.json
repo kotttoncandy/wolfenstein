@@ -1,0 +1,15 @@
+{
+  "name": "wolfenstein",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'esbuild index.js --bundle > bundle.js' --ignore 'bundle.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "kaboom": "^3000.1.17",
+    "kaplay": "^3001.0.5"
+  }
+}
