@@ -4043,6 +4043,9 @@ vec4 frag(vec2 pos, vec2 uv, vec4 color, sampler2D tex) {
       scale: 1.1
     });
     if (i2 == 1) {
+      k.add([
+        k.text("A and D to rotate,\nArrow Keys to move")
+      ]);
       k.loadBean();
       p = k.add([
         k.sprite("bean"),
